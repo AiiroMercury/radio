@@ -9,7 +9,7 @@ body {
 }
 
 .display {
-    margin-top: 100px;
+    margin-top: 125px;
     display: flex;
     justify-self: center;
     align-items: center;
@@ -46,6 +46,7 @@ body {
     margin-top: 15px;
 
 }
+
 
 
 
