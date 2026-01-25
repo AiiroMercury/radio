@@ -4,7 +4,7 @@ body {
     align-items: center;
     background-image: url(./back.jpg);
     max-width: 393px;
-    height: 852px;
+    max-height: 852px;
     overflow: hidden;
 }
 
@@ -46,4 +46,5 @@ body {
     margin-top: 15px;
 
 }
+
 
