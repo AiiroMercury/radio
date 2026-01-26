@@ -13,12 +13,12 @@
 </head>
 <body>
     <audio id="canale" autoplay>
-  <source src="https://icecast.rte.ie/radio1" type="audio/mp3">
+  <source src="" type="audio/mp3">
     </audio>
 
 <div id="radio">
 <div class="display">
-    <marquee class="channel">RTÉ Radio 1</marquee>
+    <marquee class="channel">Welcome John!!</marquee>
 </div>
 <div class="buttons"><img class="image" id="left" src="./arrowl.png"><img class="image" id="right" src="./arrowr.png"></div>
     
@@ -129,9 +129,16 @@ $(".image").click(function(event) {
                         }
                     }
                 })
+                channels.forEach(canale => {
+                        if (current_channel === "Welcome John!!") {
+                            $("#canale").attr("src", channels[0].source)
+                            $(".channel").text(channels[0].name)
+                        }
+                    })
 })
 </script>
 </html>
+
 
 
 
