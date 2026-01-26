@@ -12,8 +12,8 @@
     <title>Radio</title>
 </head>
 <body>
-    <audio id="canale" autoplay>
-  <source src="" type="audio/mp3">
+    <audio id="canale">
+  <source src="https://icecast.rte.ie/radio1" type="audio/mp3">
     </audio>
 
 <div id="radio">
@@ -133,11 +133,13 @@ $(".image").click(function(event) {
                         if (current_channel === "Welcome John!!") {
                             $("#canale").attr("src", channels[0].source)
                             $(".channel").text(channels[0].name)
+                            $("#canale").attr("autoplay", true)
                         }
                     })
 })
 </script>
 </html>
+
 
 
 
