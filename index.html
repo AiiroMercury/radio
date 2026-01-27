@@ -18,7 +18,7 @@
 
 <div id="radio">
 <div class="display">
-    <marquee class="channel">Welcome John!!</marquee>
+    <marquee class="channel">Hey John!!</marquee>
 </div>
 <div class="buttons"><img class="image" id="left" src="./arrowl.png"><img class="image" id="right" src="./arrowr.png"></div>
     
@@ -130,7 +130,7 @@ $(".image").click(function(event) {
                     }
                 })
                 channels.forEach(canale => {
-                        if (current_channel === "Welcome John!!") {
+                        if (current_channel === "Hey John!!") {
                             $("#canale").attr("src", channels[0].source)
                             $(".channel").text(channels[0].name)
                             $("#canale").attr("autoplay", true)
@@ -139,6 +139,7 @@ $(".image").click(function(event) {
 })
 </script>
 </html>
+
 
 
 
